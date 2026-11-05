@@ -8,7 +8,7 @@ Projekt je spreman i za Cloudflare Workers Static Assets. Koristi wrangler.jsonc
 
 U Cloudflare dashboardu otvori Workers & Pages, kreiraj Worker iz Git repozitorija i odaberi repozitorij sajta.
 
-- Naziv Workera: optika-kalajdzic (mora odgovarati name u wrangler.jsonc).
+- Naziv Workera: optika-kalajd-i (mora odgovarati name u wrangler.jsonc).
 - Root directory: korijen repozitorija.
 - Production branch: main.
 - Build command: prazno.
@@ -60,7 +60,7 @@ git commit -m "Update website"
 git push origin main
 ```
 
-U Cloudflare Git integraciji odaberi upravo ovaj repozitorij i granu main. Worker zadrži pod nazivom optika-kalajdzic; naziv GitHub repozitorija može se razlikovati.
+U Cloudflare Git integraciji odaberi upravo ovaj repozitorij i granu main. Worker zadrži pod nazivom optika-kalajd-i; naziv GitHub repozitorija može se razlikovati.
 
 ## Vercel
 
@@ -96,3 +96,5 @@ Promjene u Figma Designu ne mijenjaju automatski ovaj kod. Uređuje se public/in
 ## Provjera
 
 Originalni HTML je pregledan u Chromeu na širinama 320, 390, 768, 1024 i 1440 px; provjereni su slike, lokalni anchor linkovi i mobilni meni. Fajl public/index.html je identična kopija provjerenog izvora. Objavljivanje na Vercelu još nije izvršeno.
+
+Mobilni prikaz: provjeren na 22 širine od 320 do 1440 px, s otvorenim menijem i simuliranim uvećanjem teksta 130% i 200%. Provjera širine obavljena i bez overflow zaštite.
